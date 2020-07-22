@@ -22,7 +22,7 @@ class Migration(migrations.Migration):
                 ('hp', models.IntegerField()),
                 ('attack', models.IntegerField()),
                 ('defense', models.IntegerField()),
-                ('sp_attack', models.IntegerField()),
+                ('sp_atk', models.IntegerField()),
                 ('sp_def', models.IntegerField()),
                 ('speed', models.IntegerField()),
                 ('generation', models.IntegerField()),
