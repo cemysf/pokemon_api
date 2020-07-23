@@ -3,7 +3,7 @@ from rest_framework import routers
 from . import views
 
 router = routers.DefaultRouter()
-router.register(r'pokemon', views.PokemonView)
+router.register(r'', views.PokemonView)
 
 urlpatterns = [
     path('', include(router.urls)),
