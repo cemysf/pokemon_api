@@ -4,7 +4,7 @@ My implementation of a Pokemon API as a Django app.
 
 For decoupling and re-usability, the django app is created inside django_pokemon folder with a PyPI formatted setup configuration.
 
-## How to run?
+## How to?
 ### Setup Environment
 #### Option 1: Using scripts
 I wrote some scripts to automate creating and setting up a python virtual environment and a django project.
@@ -28,10 +28,14 @@ I wrote some scripts to automate creating and setting up a python virtual enviro
     ./setup_project_environment.sh
     ```
 #### Option 2: Without using scripts
-1. See _django-pokemon/README.md_
-### 2. Run Server
+1. Include django-pokemon to your django project (see _django-pokemon/README.md_)
+### Run Server
 - Inside the django project folder, run following
     ```
     python manage.py runserver
     ```
-
+### Run Tests
+- Inside the django project folder, run following
+    ```
+    python manage.py test pokemon
+    ```
