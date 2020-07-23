@@ -1,9 +1,30 @@
 # finn_repo
 ## Summary
+
 My implementation of a Pokemon API as a Django app.
 
 For decoupling and re-usability, the django app is created inside django_pokemon folder with a PyPI formatted setup configuration.
 
+---
+## Features
+### List view (paginated)
+
+`http://127.0.0.1:8000/pokemon/`
+
+`http://127.0.0.1:8000/pokemon/?page=3`
+
+### Search
+
+`http://127.0.0.1:8000/pokemon/?search=Charmander` should return one pokemon
+
+`http://127.0.0.1:8000/pokemon/?search=saur` returns pokemons with "saur" in the name, such as "Bulbasaur", "Ivysaur"..
+
+### Filter
+
+`http://127.0.0.1:8000/pokemon/?hp__gte=45&attack__lte=30&defense=35` returns "Caterpie", "Smeargle" and "Spoink"
+
+
+---
 ## How to?
 ### Setup Environment
 #### Option 1: Using scripts
