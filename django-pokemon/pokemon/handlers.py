@@ -2,7 +2,7 @@ from .models import Pokemon
 from decimal import Decimal
 
 def handle_legendary(pokemon: Pokemon):
-    if pokemon.legendary == "True":
+    if pokemon.legendary == "True" or pokemon.legendary == True:
         raise ValueError("Invalid pokemon type")
 
 def handle_ghost(pokemon: Pokemon):
