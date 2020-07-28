@@ -1,4 +1,4 @@
-# finn_repo
+# pokemon_api
 ## Summary
 
 My implementation of a Pokemon API as a Django app.
