@@ -6,6 +6,7 @@ My implementation of a Pokemon API as a Django app.
 For decoupling and re-usability, the django app is created inside django_pokemon folder with a PyPI formatted setup configuration.
 
 ---
+
 ## Features
 ### List view (paginated)
 
