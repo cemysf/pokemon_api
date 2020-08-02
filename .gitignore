@@ -2,3 +2,4 @@ dummyproject/
 virtualenv/
 staticfiles
 *.pyc
+.env
